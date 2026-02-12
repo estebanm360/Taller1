@@ -15,7 +15,7 @@ El sector financiero es clave para el crecimiento y sostenibilidad de los micron
 
 # Estructura del repositorio
 Taller1/
-datos/Originales
-scripts/
-outputs/Presentacion
+datos/Originales #Los datos utilizados para el taller
+scripts/ #Codigos
+outputs/Presentacion # presentaciones
 README.md
