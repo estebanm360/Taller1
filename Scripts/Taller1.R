@@ -1,5 +1,9 @@
+# Taller 1 Haciendo economia
+# Autores : Esteban Mora - Simon Triviño - Miguel Diaz 
+
+
 library(haven)
-df <- read_dta("D:/Documentos/Urosario/Haciendo Economia/Taller1/TenderosFU03_Publica.dta")
+df <- read_dta("Datos/Originales/TenderosFU03_Publica.dta")
 View(df)
 
 suma_caracteristicas_finanzas <- colSums(df[, c( "Finan_Gastos__1", "Finan_Gastos__2", "Finan_Gastos__4", "Finan_Gastos__7", "Finan_Gastos__9", "Finan_Gastos__10", "Finan_Gastos__11", "Finan_Gastos__12" )], na.rm = TRUE)
@@ -143,4 +147,5 @@ grid(
   col = "gray90",
   lty = "dotted"
 )
+
 
